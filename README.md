@@ -60,6 +60,7 @@
 
 ## (5) Tест случаи според Multiple Condition критериумот
 Условот if (item.getPrice() > 300 && item.getDiscount() > 0 && item.getBarcode().charAt(0) == '0') вклучува три подуслови:
+
      item.getPrice() > 300 (Услов A)
      item.getDiscount() > 0 (Услов B)
      item.getBarcode().charAt(0) == '0' (Услов C)
