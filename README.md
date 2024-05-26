@@ -11,6 +11,7 @@
 
 ## (4) Тест случаи според критериумот Every Branch
 Тест случај 1: allItems е null
+
      - Влез: checkCart(null, 100)
      - Очекуван излез: RuntimeException со порака "allItems list can't be null!"
      - Покриени гранки: 1, 2
